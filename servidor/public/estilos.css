@@ -1,0 +1,47 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  background: #f3f6f3;
+  color: #173d36;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.apresentacao {
+  box-sizing: border-box;
+  width: min(29rem, calc(100% - 2rem));
+  margin: 1rem 0;
+  padding: clamp(1.5rem, 6vw, 3rem);
+  border: 1px solid #cedbd2;
+  border-radius: 1.5rem;
+  background: white;
+}
+
+.apresentacao img {
+  display: block;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin: 1rem 0 0.4rem;
+  font-size: clamp(2rem, 8vw, 3rem);
+  line-height: 1.1;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.estado-app {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #cedbd2;
+  color: #3d5950;
+  font-size: 0.9rem;
+}
